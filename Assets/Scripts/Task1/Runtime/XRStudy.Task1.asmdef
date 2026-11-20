@@ -1,0 +1,31 @@
+{
+    "name": "XRStudy.Task1",
+    "rootNamespace": "XRStudy.Task1",
+    "references": [
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.InputSystem",
+        "Unity.XR.CoreUtils",
+        "Unity.XR.Management",
+        "Unity.TextMeshPro",
+        "Unity.XR.MetaOpenXR",
+        "Unity.XR.Hands",
+        "Unity.XR.ARFoundation",
+        "Unity.XR.ARSubsystems",
+        "UnityEngine.UI"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.meta-openxr",
+            "expression": "",
+            "define": "TASK1_META_OPENXR"
+        }
+    ],
+    "noEngineReferences": false
+}

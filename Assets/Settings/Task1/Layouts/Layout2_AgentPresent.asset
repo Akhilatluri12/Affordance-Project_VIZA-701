@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe89321016c3241cdb7d9af88cd730ab, type: 3}
+  m_Name: Layout2_AgentPresent
+  m_EditorClassIdentifier: XRStudy.Task1::XRStudy.Task1.StudyLayout
+  layoutName: Layout2
+  description: Layout 1 plus the seated agent across the table. Nothing else differs.
+  slots:
+  - slotName: Left
+    canonicalOwner: 0
+    position_m: {x: -0.25, y: 0.35}
+    yaw_deg: 0
+  - slotName: Center
+    canonicalOwner: 1
+    position_m: {x: 0, y: 0.35}
+    yaw_deg: 0
+  - slotName: Right
+    canonicalOwner: 2
+    position_m: {x: 0.25, y: 0.35}
+    yaw_deg: 0
+  allowOrderCounterbalancing: 1
+  handRestPosition_m: {x: 0, y: 0.06}
+  handRestSize_m: {x: 0.13, y: 0.09}
+  padPosition_m: {x: 0.33, y: 0.13}
+  padSize_m: {x: 0.14, y: 0.14}
+  showAgent: 1
+  agentPosition_m: {x: 0, y: 1.05}
+  agentYaw_deg: 180
+  instructionPanelPosition_m: {x: 0, y: 0.8, z: 0.95}
+  instructionPanelTilt_deg: 12
+  experimenterPanelPosition_m: {x: -0.6, y: 0.3, z: 0.3}

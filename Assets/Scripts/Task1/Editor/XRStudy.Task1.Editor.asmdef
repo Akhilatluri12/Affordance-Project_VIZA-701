@@ -1,0 +1,26 @@
+{
+    "name": "XRStudy.Task1.Editor",
+    "rootNamespace": "XRStudy.Task1.Editor",
+    "references": [
+        "XRStudy.Task1",
+        "Unity.XR.Interaction.Toolkit",
+        "Unity.InputSystem",
+        "Unity.XR.CoreUtils",
+        "Unity.TextMeshPro",
+        "Unity.XR.ARFoundation",
+        "UnityEngine.UI",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.XR.Hands"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
